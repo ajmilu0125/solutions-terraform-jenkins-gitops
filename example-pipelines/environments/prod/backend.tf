@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "ivory-cycle-354718-tfstate"
     prefix = "env/prod"
   }
 }
